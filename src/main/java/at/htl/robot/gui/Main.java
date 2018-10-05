@@ -3,8 +3,8 @@ package at.htl.robot.gui;
 import at.htl.robot.model.Robot;
 import processing.core.PApplet;
 
-/**
- *Sebastian Scholl
+/*
+ * Sebastian <kein Mittelname> Scholl
  */
 
 public class Main extends PApplet {
