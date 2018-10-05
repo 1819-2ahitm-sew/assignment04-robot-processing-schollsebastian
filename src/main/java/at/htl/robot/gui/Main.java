@@ -4,7 +4,7 @@ import at.htl.robot.model.Robot;
 import processing.core.PApplet;
 
 /**
- * Sebastian Scholl
+ *Sebastian Scholl
  */
 
 public class Main extends PApplet {
