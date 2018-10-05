@@ -4,11 +4,12 @@ import at.htl.robot.model.Robot;
 import processing.core.PApplet;
 
 /*
- * Sebastian <kein Mittelname> Scholl
+ * Sebastian Scholl
  */
 
 public class Main extends PApplet {
 
+    Robot robot;
     // Hier die Member-Attribute eintragen
 
     public static void main(String[] args) {
@@ -16,18 +17,13 @@ public class Main extends PApplet {
     }
 
     public void settings() {
-        size(800, 800);
+        fullScreen();
     }
 
     public void setup() {
-        background(209); //https://processing.org/tutorials/color/
-
-
+        background(209);
     }
 
-    /**
-     * Diese Methode wird iterativ durchlaufen (wie loop() beim Arduino)
-     */
     public void draw() {
 
     }
